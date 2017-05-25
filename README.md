@@ -2,4 +2,4 @@
 [<img src="https://img.shields.io/badge/Poggit-view-brightgreen.svg" width="100" height="25" />](https://poggit.pmmp.io/ci/ThunderDoesPlugins/GeoLocator/GeoLocator)
 [<img src="https://img.shields.io/badge/Discord-join-697EC4.svg" width="100" height="25" />](https://discord.gg/uBghvNp)
 
-Shows Player's Estimated Location
+Announce Player's Location When They Join
