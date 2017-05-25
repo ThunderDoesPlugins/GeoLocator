@@ -1,0 +1,16 @@
+name: GeoLocator
+version: 1.0.0
+api: [3.0.0-ALPHA5]
+author: Thunder33345
+description: "Announce Player's Location When They Join"
+website: "https://github.com/ThunderDoesPlugins/GeoLocator"
+main: Thunder33345\GeoLocator\GeoLocator
+
+#commands:
+#  geolocator:
+#    aliases: ['gl']
+
+#permissions:
+#  geolocator:
+#    default: false
+#    description: ""

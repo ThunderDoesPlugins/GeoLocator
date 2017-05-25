@@ -1,0 +1,25 @@
+---
+# GeoLocator Config
+# This uses http://ip-api.com/ as endpoint
+# Disclaimer: Nothing here is accurate, it only can show ESTIMATE of the IP which most time proven to be faulty and only as good as an estimate
+
+# Announce format available data will be determined by fields
+# Anything that's returned can be displayed by using %value% (case sensitive)
+join-message: "![GOLD]![BOLD]GeoLocator![RESET]![GREEN]>![WHITE] %player%![RESET] joined from %country% in %regionName%,%city% using %isp%"
+
+# This will determine things you can use in the join-message
+# to customise visit http://ip-api.com/docs/api:returned_values#selectable_output and grab the number
+# Reduce it to improve performance, status and message is REQUIRED
+# This default value only provide data required to from current message
+fields: "57881"
+
+# Calls to API per min, do not go over 150 or you will get IP banned
+# to unban go to here http://ip-api.com/docs/unban and type in your server's outbound IP
+call-limit: "140"
+
+# Lang code used for API endpoint will determine language returned by endpoint
+lang: "en"
+
+# Most errors can be safely suppressed, turning this to false will only show overquota errors
+show-errors: "false"
+...
